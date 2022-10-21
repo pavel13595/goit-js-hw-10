@@ -22,3 +22,40 @@ body {
 .list {
   list-style-type: none;
 }
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+  background-color: #ccc;
+}
+
+.country__mini-card {
+  display: flex;
+  align-items: center;
+}
+.country__mini-card img {
+  margin-right: 10px;
+}
+
+.country__title {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.country__title p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.country__title img {
+  margin-right: 10px;
+}
+
+.country__item {
+  display: flex;
+}
